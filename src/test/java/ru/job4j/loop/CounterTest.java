@@ -9,7 +9,7 @@ class CounterTest {
     void when0And10Then55() {
         int start = 0, finish = 10;
         int expected = 55;
-        int output = Counter.sum(start,finish);
+        int output = Counter.sum(start, finish);
         assertThat(output).isEqualTo(expected);
     }
 
