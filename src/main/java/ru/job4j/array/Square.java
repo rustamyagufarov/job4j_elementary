@@ -4,7 +4,6 @@ public class Square {
 
     public static int[] calculate(int bound) {
         int[] result = new int[bound];
-        /* заполнить массив через цикл элементами от 0 до bound , возведенными в квадрат */
         for (int index = 0; index < bound; index++) {
             result[index] = index * index;
         }
