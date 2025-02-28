@@ -4,6 +4,7 @@ import org.junit.jupiter.api.Test;
 import static org.assertj.core.api.Assertions.assertThat;
 
 class SquareTest {
+
     @Test
     void whenBound3Then014() {
         int bound = 3;
@@ -11,6 +12,7 @@ class SquareTest {
         int[] expected = new int[] {0, 1, 4};
         assertThat(result).containsExactly(expected);
     }
+
     @Test
     void whenBound5Then014916() {
         int bound = 5;
