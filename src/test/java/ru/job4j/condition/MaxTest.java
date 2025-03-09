@@ -21,7 +21,7 @@ class MaxTest {
 
     @Test
     void when3And6And4And1Then6() {
-        int result = Max.max(3, 6, 4,1);
+        int result = Max.max(3, 6, 4, 1);
         int excepted = 6;
         assertThat(result).isEqualTo(excepted);
     }
